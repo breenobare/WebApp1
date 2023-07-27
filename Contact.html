@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Foodie: About US</title>
+    <style>
+      body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: sans-serif;
+        box-sizing: border-box;
+      }
+
+      h1 {
+        text-align: center;
+        color: green;
+        padding: 20px;
+      }
+
+      nav {
+        background-color: lime;
+        display: grid;
+        place-items: center;
+      }
+
+      nav ul {
+        list-style-type: none;
+      }
+
+      nav ul a {
+        display: inline-block;
+        padding: 20px;
+        text-decoration: none;
+        color: #000;
+        transition: 0.2s ease-in;
+        font-size: 18px;
+      }
+
+      nav ul a:hover {
+        background-color: green;
+        color: white;
+      }
+
+      .contact-box {
+        max-width: 500px;
+        margin: 0 auto;
+        float: right;
+        padding: 20px;
+        box-shadow: 0 0 20px 0 #999;
+      }
+
+      form {
+        margin: 35px;
+      }
+
+      .input-field {
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        border: 1px solid #777;
+        border-radius: 14px;
+        outline: none;
+      }
+
+      .textarea-field {
+        height: 150px;
+        padding-top: 10px;
+        width: 100%;
+      }
+
+      .btn {
+        border-radius: 20px;
+        color: #fff;
+        margin-top: 18px;
+        padding: 10px;
+        background-color: #47c35a;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .About {
+        max-width: 600px;
+        margin: 0 auto;
+        float: left;
+      }
+
+      .About p {
+        padding-top: 10px;
+        text-align: justify;
+        line-height: 25px;
+        font-size: 18px;
+      }
+
+      #footer {
+        text-align: center;
+        font-size: 15px;
+        font-style: italic;
+        padding: 10px;
+        color: white;
+        background-color: green;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Foodie Place</h1>
+    <nav>
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="Dishes.html"><li>Main Dishes</li></a>
+        <a href="Drinks.html"><li>Drinks</li></a>
+        <a href="#"><li>About US</li></a>
+      </ul>
+    </nav>
+    <div class="contact-box">
+      <h3 id="contact_us">Contact US</h3>
+      <form>
+        <input type="text" class="input-field" placeholder="Your Name" />
+        <input type="email" class="input-field" placeholder="Your Email" />
+        <input type="text" class="input-field" placeholder="Subject" />
+        <textarea
+          type="text"
+          class="input-field textarea-field"
+          placeholder="Message"
+        ></textarea>
+        <button type="button" class="btn">Send Message</button>
+      </form>
+    </div>
+    <div class="About">
+      <h3>About US</h3>
+      <p>
+        Welcome to "Foodie Place," a haven for foodies seeking a culinary
+        adventure. Our restaurant boasts a warm ambiance, combining modern
+        elegance with rustic charm. Our talented chefs craft a menu celebrating
+        local and seasonal ingredients, creating a symphony of flavors from
+        around the world. Each dish is meticulously prepared to delight your
+        senses. Complementing the culinary delights is an extensive selection of
+        fine wines and craft cocktails. Our attentive staff ensures an
+        exceptional dining experience. Whether it's a special occasion or a
+        gathering with friends, "Gourmet Delights" promises an unforgettable
+        journey through the world of delectable cuisine.
+      </p>
+    </div>
+    <div id="footer">
+      <h4>Desighned by: Breen, Nelson and Douglas</h4>
+    </div>
+  </body>
+</html>
